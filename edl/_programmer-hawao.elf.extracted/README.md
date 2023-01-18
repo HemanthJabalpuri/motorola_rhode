@@ -1,5 +1,5 @@
 ```
-$ binwalk --dd="cer" programmer-hawao.elf
+$ binwalk --dd="cer" ../programmer-hawao.elf
 
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
