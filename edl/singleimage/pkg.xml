@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<package>
+    <programmer filename="programmer.elf"/>
+
+    <recipe filename="default.xml"/>
+</package>

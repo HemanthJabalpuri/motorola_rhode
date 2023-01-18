@@ -1,0 +1,795 @@
+## Printing /dev/block/sda info
+Disk /dev/block/sda: 4096 sectors, 16.0 MiB
+Sector size (logical/physical): 4096/4096 bytes
+Disk identifier (GUID): EF690DA0-C557-D70D-D98A-2DB36D02AA99
+Partition table holds up to 3 entries
+Main partition table begins at sector 2 and ends at sector 2
+First usable sector is 6, last usable sector is 4090
+Partitions will be aligned on 32-sector boundaries
+Total free space is 1781 sectors (7.0 MiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              32            2079   8.0 MiB     FFFF  hw
+   2            2080            2335   1024.0 KiB  A01A  ddr
+   3            2336            4090   6.9 MiB     FFFF  last_parti0
+===================================================================
+Partition GUID code: B2D77EC0-8957-11E5-AF63-FEFF819CDC9F (Unknown)
+Partition unique GUID: 6025B0D2-2210-068C-B204-B5C0B7B3789E
+First sector: 32 (at 128.0 KiB)
+Last sector: 2079 (at 8.1 MiB)
+Partition size: 2048 sectors (8.0 MiB)
+Attribute flags: 1000000000000020
+Partition name: 'hw'
+===================================================================
+Partition GUID code: 20A0C19C-286A-42FA-9CE7-F64C3226A794 (Android DDR)
+Partition unique GUID: 071E31E4-4729-DFB0-20E4-47EB0D20909B
+First sector: 2080 (at 8.1 MiB)
+Last sector: 2335 (at 9.1 MiB)
+Partition size: 256 sectors (1024.0 KiB)
+Attribute flags: 1000000000000018
+Partition name: 'ddr'
+===================================================================
+Partition #3 does not exist.
+===================================================================
+
+
+
+## Printing /dev/block/sdb info
+Disk /dev/block/sdb: 2048 sectors, 8.0 MiB
+Sector size (logical/physical): 4096/4096 bytes
+Disk identifier (GUID): B4445DF1-19FF-620B-E822-98B3F9488AA5
+Partition table holds up to 3 entries
+Main partition table begins at sector 2 and ends at sector 2
+First usable sector is 6, last usable sector is 2042
+Partitions will be aligned on 32-sector boundaries
+Total free space is 693 sectors (2.7 MiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              32            1311   5.0 MiB     A012  xbl_a
+   2            1312            1375   256.0 KiB   FFFF  xbl_config_a
+   3            1376            2042   2.6 MiB     FFFF  last_parti2
+===================================================================
+Partition GUID code: DEA0BA2C-CBDD-4805-B4F9-F428251C3E98 (Android SBL1)
+Partition unique GUID: AB419976-6715-2A72-9003-799616ECE872
+First sector: 32 (at 128.0 KiB)
+Last sector: 1311 (at 5.1 MiB)
+Partition size: 1280 sectors (5.0 MiB)
+Attribute flags: 1044000000000068
+Partition name: 'xbl_a'
+===================================================================
+Partition GUID code: 5A325AE4-4276-B66D-0ADD-3494DF27706A (Unknown)
+Partition unique GUID: 7E8C42C6-A303-5A36-D2F0-D7595EA241E5
+First sector: 1312 (at 5.1 MiB)
+Last sector: 1375 (at 5.4 MiB)
+Partition size: 64 sectors (256.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'xbl_config_a'
+===================================================================
+Partition #3 does not exist.
+===================================================================
+
+
+
+## Printing /dev/block/sdc info
+Disk /dev/block/sdc: 2048 sectors, 8.0 MiB
+Sector size (logical/physical): 4096/4096 bytes
+Disk identifier (GUID): F0179B06-DF74-8244-33FA-4766C3717289
+Partition table holds up to 3 entries
+Main partition table begins at sector 2 and ends at sector 2
+First usable sector is 6, last usable sector is 2042
+Partitions will be aligned on 32-sector boundaries
+Total free space is 693 sectors (2.7 MiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              32            1311   5.0 MiB     A012  xbl_b
+   2            1312            1375   256.0 KiB   FFFF  xbl_config_b
+   3            1376            2042   2.6 MiB     FFFF  last_parti3
+===================================================================
+Partition GUID code: DEA0BA2C-CBDD-4805-B4F9-F428251C3E98 (Android SBL1)
+Partition unique GUID: CE17222D-6FC8-D370-E981-BFA7340067F9
+First sector: 32 (at 128.0 KiB)
+Last sector: 1311 (at 5.1 MiB)
+Partition size: 1280 sectors (5.0 MiB)
+Attribute flags: 1000000000000068
+Partition name: 'xbl_b'
+===================================================================
+Partition GUID code: 5A325AE4-4276-B66D-0ADD-3494DF27706A (Unknown)
+Partition unique GUID: 2BC113D0-DB66-2CED-7698-1B051191FFEB
+First sector: 1312 (at 5.1 MiB)
+Last sector: 1375 (at 5.4 MiB)
+Partition size: 64 sectors (256.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'xbl_config_b'
+===================================================================
+Partition #3 does not exist.
+===================================================================
+
+
+
+## Printing /dev/block/sdd info
+Disk /dev/block/sdd: 241664 sectors, 944.0 MiB
+Sector size (logical/physical): 4096/4096 bytes
+Disk identifier (GUID): D63153E7-E4F9-BE40-6F55-F0BF0FB7AE54
+Partition table holds up to 23 entries
+Main partition table begins at sector 2 and ends at sector 2
+First usable sector is 6, last usable sector is 241658
+Partitions will be aligned on 4-sector boundaries
+Total free space is 100545 sectors (392.8 MiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              32            1055   4.0 MiB     A016  tz_a
+   2            1056            1183   512.0 KiB   A018  rpm_a
+   3            1184            1311   512.0 KiB   A017  hyp_a
+   4            1312            1439   512.0 KiB   FFFF  cmnlib_a
+   5            1440            1567   512.0 KiB   FFFF  cmnlib64_a
+   6            1568            1695   512.0 KiB   FFFF  keymaster_a
+   7            1696            1759   256.0 KiB   FFFF  prov_a
+   8            1760            2015   1024.0 KiB  FFFF  abl_a
+   9            2016            2527   2.0 MiB     FFFF  uefisecapp_a
+  10            2528            2559   128.0 KiB   FFFF  devcfg_a
+  11            2560            2579   80.0 KiB    FFFF  qupfw_a
+  12            2580            2611   128.0 KiB   FFFF  storsec_a
+  13            2612           48691   180.0 MiB   0700  modem_a
+  14           48692           48947   1024.0 KiB  FFFF  bluetooth_a
+  15           48948           65331   64.0 MiB    FFFF  dsp_a
+  16           65332           89907   96.0 MiB    A036  boot_a
+  17           89908           96051   24.0 MiB    FFFF  dtbo_a
+  18           96064          120639   96.0 MiB    FFFF  vendor_boot_a
+  19          120640          124735   16.0 MiB    FFFF  logo_a
+  20          124736          124751   64.0 KiB    FFFF  vbmeta_a
+  21          124752          124767   64.0 KiB    FFFF  vbmeta_system_a
+  22          124768          141151   64.0 MiB    A02A  fsg_a
+  23          141152          241658   392.6 MiB   FFFF  last_parti4
+===================================================================
+Partition GUID code: A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4 (Android QSEE/tz)
+Partition unique GUID: 59D129C3-280C-49BB-DF70-EAA25E6D5663
+First sector: 32 (at 128.0 KiB)
+Last sector: 1055 (at 4.1 MiB)
+Partition size: 1024 sectors (4.0 MiB)
+Attribute flags: 1044000000000068
+Partition name: 'tz_a'
+===================================================================
+Partition GUID code: 098DF793-D712-413D-9D4E-89D711772228 (Android RPM)
+Partition unique GUID: FD788A8D-67F5-498C-0A90-0297EBD1C8E8
+First sector: 1056 (at 4.1 MiB)
+Last sector: 1183 (at 4.6 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'rpm_a'
+===================================================================
+Partition GUID code: E1A6A689-0C8D-4CC6-B4E8-55A4320FBD8A (Android QHEE/hyp)
+Partition unique GUID: E9E7645A-FEFD-EA1A-4103-75FBE243DDE5
+First sector: 1184 (at 4.6 MiB)
+Last sector: 1311 (at 5.1 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'hyp_a'
+===================================================================
+Partition GUID code: 73471795-AB54-43F9-A847-4F72EA5CBEF5 (Unknown)
+Partition unique GUID: 25CDB939-08A5-FAF1-0349-F6E76A7BA8E6
+First sector: 1312 (at 5.1 MiB)
+Last sector: 1439 (at 5.6 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'cmnlib_a'
+===================================================================
+Partition GUID code: 8EA64893-1267-4A1B-947C-7C362ACAAD2C (Unknown)
+Partition unique GUID: 7683D855-17D0-0B8C-9CD1-AF4A9D122539
+First sector: 1440 (at 5.6 MiB)
+Last sector: 1567 (at 6.1 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'cmnlib64_a'
+===================================================================
+Partition GUID code: A11D2A7C-D82A-4C2F-8A01-1805240E6626 (Unknown)
+Partition unique GUID: 0DC8B6C7-810A-5BC2-5724-9F4CBF8E3288
+First sector: 1568 (at 6.1 MiB)
+Last sector: 1695 (at 6.6 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'keymaster_a'
+===================================================================
+Partition GUID code: D05E0FC0-FFEE-1FEE-115D-EBA7AB1EF00D (Unknown)
+Partition unique GUID: 31CA6A7B-ED16-2842-505F-FEDD2A1702CE
+First sector: 1696 (at 6.6 MiB)
+Last sector: 1759 (at 6.9 MiB)
+Partition size: 64 sectors (256.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'prov_a'
+===================================================================
+Partition GUID code: BD6928A1-4CE0-A038-4F3A-1495E3EDDFFB (Unknown)
+Partition unique GUID: 042179B8-A33D-BDB4-258C-D79FD680D344
+First sector: 1760 (at 6.9 MiB)
+Last sector: 2015 (at 7.9 MiB)
+Partition size: 256 sectors (1024.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'abl_a'
+===================================================================
+Partition GUID code: BE8A7E08-1B7A-4CAE-993A-D5B7FB55B3C2 (Unknown)
+Partition unique GUID: 785AEF6B-6A4D-D62F-C412-F18827A6FEB8
+First sector: 2016 (at 7.9 MiB)
+Last sector: 2527 (at 9.9 MiB)
+Partition size: 512 sectors (2.0 MiB)
+Attribute flags: 1044000000000068
+Partition name: 'uefisecapp_a'
+===================================================================
+Partition GUID code: F65D4B16-343D-4E25-AAFC-BE99B6556A6D (Unknown)
+Partition unique GUID: 1D1955A8-96E4-E23D-2ACC-5B311AE9B2C8
+First sector: 2528 (at 9.9 MiB)
+Last sector: 2559 (at 10.0 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'devcfg_a'
+===================================================================
+Partition GUID code: 21D1219F-2ED1-4AB4-930A-41A16AE75F7F (Unknown)
+Partition unique GUID: 87142394-D320-6710-11FA-97A718D68012
+First sector: 2560 (at 10.0 MiB)
+Last sector: 2579 (at 10.1 MiB)
+Partition size: 20 sectors (80.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'qupfw_a'
+===================================================================
+Partition GUID code: 02DB45FE-AD1B-4CB6-AECC-0042C637DEFA (Unknown)
+Partition unique GUID: 3B1052A3-B795-2431-7711-69C7088D0A96
+First sector: 2580 (at 10.1 MiB)
+Last sector: 2611 (at 10.2 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 1044000000000068
+Partition name: 'storsec_a'
+===================================================================
+Partition GUID code: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 (Microsoft basic data)
+Partition unique GUID: 9EE1E023-C706-13FD-5DA4-C1257FEBFF29
+First sector: 2612 (at 10.2 MiB)
+Last sector: 48691 (at 190.2 MiB)
+Partition size: 46080 sectors (180.0 MiB)
+Attribute flags: 1044000000000048
+Partition name: 'modem_a'
+===================================================================
+Partition GUID code: 6CB747F1-C2EF-4092-ADD0-CA39F79C7AF4 (Unknown)
+Partition unique GUID: A0929734-C6A6-BB57-E80F-9DD098EB4FE3
+First sector: 48692 (at 190.2 MiB)
+Last sector: 48947 (at 191.2 MiB)
+Partition size: 256 sectors (1024.0 KiB)
+Attribute flags: 1044000000000048
+Partition name: 'bluetooth_a'
+===================================================================
+Partition GUID code: 7EFE5010-2A1A-4A1A-B8BC-990257813512 (Unknown)
+Partition unique GUID: DA2CB8FB-4469-5DC7-4617-76DA40F9FF72
+First sector: 48948 (at 191.2 MiB)
+Last sector: 65331 (at 255.2 MiB)
+Partition size: 16384 sectors (64.0 MiB)
+Attribute flags: 1044000000000048
+Partition name: 'dsp_a'
+===================================================================
+Partition GUID code: 20117F86-E985-4357-B9EE-374BC1D8487D (Android boot 2)
+Partition unique GUID: C4171A4E-EED2-68CE-BEC7-333283DABAD1
+First sector: 65332 (at 255.2 MiB)
+Last sector: 89907 (at 351.2 MiB)
+Partition size: 24576 sectors (96.0 MiB)
+Attribute flags: 1077000000000048
+Partition name: 'boot_a'
+===================================================================
+Partition GUID code: 24D0D418-D31D-4D8D-AC2C-4D4305188450 (Unknown)
+Partition unique GUID: FC720CEF-1848-5890-9CA6-57D1526A2099
+First sector: 89908 (at 351.2 MiB)
+Last sector: 96051 (at 375.2 MiB)
+Partition size: 6144 sectors (24.0 MiB)
+Attribute flags: 1044000000000048
+Partition name: 'dtbo_a'
+===================================================================
+Partition GUID code: D504D6DB-FA92-4853-B59E-C7F292E2EA19 (Unknown)
+Partition unique GUID: 0177FE4D-E0C8-9523-21F3-486BC26A3107
+First sector: 96064 (at 375.3 MiB)
+Last sector: 120639 (at 471.2 MiB)
+Partition size: 24576 sectors (96.0 MiB)
+Attribute flags: 0044000000000048
+Partition name: 'vendor_boot_a'
+===================================================================
+Partition GUID code: AD99F201-DC71-4E30-9630-E19EEF553D1B (Unknown)
+Partition unique GUID: E8B39B70-5A44-E2E5-4B1C-8E36D765A6EF
+First sector: 120640 (at 471.3 MiB)
+Last sector: 124735 (at 487.2 MiB)
+Partition size: 4096 sectors (16.0 MiB)
+Attribute flags: 1044000000000048
+Partition name: 'logo_a'
+===================================================================
+Partition GUID code: 4B7A15D6-322C-42AC-8110-88B7DA0C5D77 (Unknown)
+Partition unique GUID: AC06E9A4-5116-FA10-FFB5-60681CC9FD02
+First sector: 124736 (at 487.3 MiB)
+Last sector: 124751 (at 487.3 MiB)
+Partition size: 16 sectors (64.0 KiB)
+Attribute flags: 1044000000000048
+Partition name: 'vbmeta_a'
+===================================================================
+Partition GUID code: 1344859D-3A6A-4C14-A316-9E696B3A5400 (Unknown)
+Partition unique GUID: 68828198-933F-C287-8548-021F9AFC6610
+First sector: 124752 (at 487.3 MiB)
+Last sector: 124767 (at 487.4 MiB)
+Partition size: 16 sectors (64.0 KiB)
+Attribute flags: 1044000000000048
+Partition name: 'vbmeta_system_a'
+===================================================================
+Partition GUID code: 638FF8E2-22C9-E33B-8F5D-0E81686A68CB (Android FSG 1)
+Partition unique GUID: 6280FD47-A280-B654-16AE-D6ED1F54CC63
+First sector: 124768 (at 487.4 MiB)
+Last sector: 141151 (at 551.4 MiB)
+Partition size: 16384 sectors (64.0 MiB)
+Attribute flags: 0044000000000048
+Partition name: 'fsg_a'
+===================================================================
+Partition #23 does not exist.
+===================================================================
+
+
+
+## Printing /dev/block/sde info
+Disk /dev/block/sde: 30746624 sectors, 117.3 GiB
+Sector size (logical/physical): 4096/4096 bytes
+Disk identifier (GUID): AFB60E86-7175-40A3-5246-E51DDBC51F11
+Partition table holds up to 27 entries
+Main partition table begins at sector 2 and ends at sector 2
+First usable sector is 6, last usable sector is 30746618
+Partitions will be aligned on 1-sector boundaries
+Total free space is 142 sectors (568.0 KiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              32              33   8.0 KiB     A02C  ssd
+   2              64            8255   32.0 MiB    A026  persist
+   3            8256           10303   8.0 MiB     A026  prodpersist
+   4           10304           10559   1024.0 KiB  A01F  misc
+   5           10560           10687   512.0 KiB   FFFF  frp
+   6           10688           10815   512.0 KiB   FFFF  utags
+   7           10816           10943   512.0 KiB   FFFF  utagsBackup
+   8           10944           10975   128.0 KiB   FFFF  cid
+   9           10976           15071   16.0 MiB    FFFF  metadata
+  10           15072           17119   8.0 MiB     FFFF  kpan
+  11           17120           19167   8.0 MiB     FFFF  sp
+  12           19168           23263   16.0 MiB    FFFF  carrier
+  13           23264           23903   2.5 MiB     A027  modemst1
+  14           23904           24543   2.5 MiB     A028  modemst2
+  15           24544           24575   128.0 KiB   A029  fsc
+  16           24576           24583   32.0 KiB    FFFF  dhob
+  17           24608           24671   256.0 KiB   A023  msadp
+  18           24672           24672   4.0 KiB     A021  devinfo
+  19           24673           26720   8.0 MiB     FFFF  logfs
+  20           26721           26784   256.0 KiB   A022  apdp
+  21           26816           28863   8.0 MiB     FFFF  spunvm
+  22           28864           28864   4.0 KiB     A040  limits
+  23           28865           28992   512.0 KiB   FFFF  uefivarstore
+  24           29024           29055   128.0 KiB   FFFF  pad3
+  25           29056         1880447   7.1 GiB     FFFF  super
+  26         1880448         1880575   512.0 KiB   FFFF  pad4
+  27         1880576        30746618   110.1 GiB   A03A  userdata
+===================================================================
+Partition GUID code: 2C86E742-745E-4FDD-BFD8-B6A7AC638772 (Android SSD)
+Partition unique GUID: C566CD53-6705-8530-A9C5-0EFB09B70314
+First sector: 32 (at 128.0 KiB)
+Last sector: 33 (at 132.0 KiB)
+Partition size: 2 sectors (8.0 KiB)
+Attribute flags: 1000000000000008
+Partition name: 'ssd'
+===================================================================
+Partition GUID code: 6C95E238-E343-4BA8-B489-8681ED22AD0B (Android persist)
+Partition unique GUID: DB6E6441-A17B-AD3A-A7E5-F39967C338B5
+First sector: 64 (at 256.0 KiB)
+Last sector: 8255 (at 32.2 MiB)
+Partition size: 8192 sectors (32.0 MiB)
+Attribute flags: 0000000000000028
+Partition name: 'persist'
+===================================================================
+Partition GUID code: 6C95E238-E343-4BA8-B489-8681ED22AD0B (Android persist)
+Partition unique GUID: 290EF786-A5E5-689F-6178-FE248B3361A3
+First sector: 8256 (at 32.3 MiB)
+Last sector: 10303 (at 40.2 MiB)
+Partition size: 2048 sectors (8.0 MiB)
+Attribute flags: 0000000000000008
+Partition name: 'prodpersist'
+===================================================================
+Partition GUID code: 82ACC91F-357C-4A68-9C8F-689E1B1A23A1 (Android misc 1)
+Partition unique GUID: 8832937C-7523-EF5B-0EF2-AB35C13980F2
+First sector: 10304 (at 40.3 MiB)
+Last sector: 10559 (at 41.2 MiB)
+Partition size: 256 sectors (1024.0 KiB)
+Attribute flags: 0000000000000028
+Partition name: 'misc'
+===================================================================
+Partition GUID code: 91B72D4D-71E0-4CBF-9B8E-236381CFF17A (Unknown)
+Partition unique GUID: 789E7B6E-BDA3-7999-9462-8AF414082A01
+First sector: 10560 (at 41.3 MiB)
+Last sector: 10687 (at 41.7 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 0000000000000028
+Partition name: 'frp'
+===================================================================
+Partition GUID code: 1DD40D18-E3C8-11E0-A48C-C75729CDE6E5 (Unknown)
+Partition unique GUID: 380BBD54-6A6B-532C-11DA-E2AB8071DAA3
+First sector: 10688 (at 41.8 MiB)
+Last sector: 10815 (at 42.2 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 0000000000000020
+Partition name: 'utags'
+===================================================================
+Partition GUID code: C490F39C-9538-40EC-B320-EFA23CC6CFCD (Unknown)
+Partition unique GUID: D041EC81-5A1F-E6D4-AFFE-9F39C3E1A22D
+First sector: 10816 (at 42.3 MiB)
+Last sector: 10943 (at 42.7 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 0000000000000000
+Partition name: 'utagsBackup'
+===================================================================
+Partition GUID code: 459ABD04-E62C-11E0-B630-001111EA6A40 (Unknown)
+Partition unique GUID: 0F6D7DDD-B417-0B97-FD3E-BAD6D6F421CD
+First sector: 10944 (at 42.8 MiB)
+Last sector: 10975 (at 42.9 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 1000000000000020
+Partition name: 'cid'
+===================================================================
+Partition GUID code: A877B68D-0518-3416-921F-DB32D65E3D54 (Unknown)
+Partition unique GUID: 32B33AA1-8EA6-D3E0-6006-CA6FE95BC525
+First sector: 10976 (at 42.9 MiB)
+Last sector: 15071 (at 58.9 MiB)
+Partition size: 4096 sectors (16.0 MiB)
+Attribute flags: 0000000000000018
+Partition name: 'metadata'
+===================================================================
+Partition GUID code: 56465E10-E62C-11E0-85D9-001111EA6A40 (Unknown)
+Partition unique GUID: 90893466-E5DC-5CA0-D11F-704E48E14F43
+First sector: 15072 (at 58.9 MiB)
+Last sector: 17119 (at 66.9 MiB)
+Partition size: 2048 sectors (8.0 MiB)
+Attribute flags: 0000000000000008
+Partition name: 'kpan'
+===================================================================
+Partition GUID code: 40AEF62A-E62C-11E0-AEC5-001111EA6A40 (Unknown)
+Partition unique GUID: F353F1CF-4C61-CA17-B71F-25936F2E2C97
+First sector: 17120 (at 66.9 MiB)
+Last sector: 19167 (at 74.9 MiB)
+Partition size: 2048 sectors (8.0 MiB)
+Attribute flags: 0000000000000000
+Partition name: 'sp'
+===================================================================
+Partition GUID code: C63D32D8-C880-4F28-B4D6-27F5542324CA (Unknown)
+Partition unique GUID: 201FD87E-4BEA-3142-035E-10953E5DDC99
+First sector: 19168 (at 74.9 MiB)
+Last sector: 23263 (at 90.9 MiB)
+Partition size: 4096 sectors (16.0 MiB)
+Attribute flags: 0000000000000018
+Partition name: 'carrier'
+===================================================================
+Partition GUID code: EBBEADAF-22C9-E33B-8F5D-0E81686A68CB (Android modem ST1)
+Partition unique GUID: 436BEF8C-507E-703C-50AF-C68017F69EAA
+First sector: 23264 (at 90.9 MiB)
+Last sector: 23903 (at 93.4 MiB)
+Partition size: 640 sectors (2.5 MiB)
+Attribute flags: 0000000000000018
+Partition name: 'modemst1'
+===================================================================
+Partition GUID code: 0A288B1F-22C9-E33B-8F5D-0E81686A68CB (Android modem ST2)
+Partition unique GUID: 4355BB4D-9712-6E03-BF2D-01A3D30B7D07
+First sector: 23904 (at 93.4 MiB)
+Last sector: 24543 (at 95.9 MiB)
+Partition size: 640 sectors (2.5 MiB)
+Attribute flags: 0000000000000018
+Partition name: 'modemst2'
+===================================================================
+Partition GUID code: 57B90A16-22C9-E33B-8F5D-0E81686A68CB (Android FSC)
+Partition unique GUID: 226B4364-65D5-A962-00B5-77F7437A8AEB
+First sector: 24544 (at 95.9 MiB)
+Last sector: 24575 (at 96.0 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 0000000000000018
+Partition name: 'fsc'
+===================================================================
+Partition GUID code: 8A749857-C804-4041-8D6E-39F668F1D007 (Unknown)
+Partition unique GUID: 1CBD100B-2713-C57C-4F85-C75976DBDFD1
+First sector: 24576 (at 96.0 MiB)
+Last sector: 24583 (at 96.0 MiB)
+Partition size: 8 sectors (32.0 KiB)
+Attribute flags: 0000000000000038
+Partition name: 'dhob'
+===================================================================
+Partition GUID code: ED9E8101-05FA-46B7-82AA-8D58770D200B (Android MSADP)
+Partition unique GUID: E5CB92CA-8EC3-F7CC-86E9-30CFF04911ED
+First sector: 24608 (at 96.1 MiB)
+Last sector: 24671 (at 96.4 MiB)
+Partition size: 64 sectors (256.0 KiB)
+Attribute flags: 1000000000000008
+Partition name: 'msadp'
+===================================================================
+Partition GUID code: 65ADDCF4-0C5C-4D9A-AC2D-D90B5CBFCD03 (Android device info)
+Partition unique GUID: D62690B2-DE4D-EDF0-EB5E-1C2BF2C9B0DC
+First sector: 24672 (at 96.4 MiB)
+Last sector: 24672 (at 96.4 MiB)
+Partition size: 1 sectors (4.0 KiB)
+Attribute flags: 1000000000000020
+Partition name: 'devinfo'
+===================================================================
+Partition GUID code: BC0330EB-3410-4951-A617-03898DBE3372 (Unknown)
+Partition unique GUID: 76642EFC-3D9F-5289-1368-A19B2009164C
+First sector: 24673 (at 96.4 MiB)
+Last sector: 26720 (at 104.4 MiB)
+Partition size: 2048 sectors (8.0 MiB)
+Attribute flags: 1000000000000008
+Partition name: 'logfs'
+===================================================================
+Partition GUID code: E6E98DA2-E22A-4D12-AB33-169E7DEAA507 (Android APDP)
+Partition unique GUID: F8B6F6F5-A537-55FF-377D-784621D91AC7
+First sector: 26721 (at 104.4 MiB)
+Last sector: 26784 (at 104.6 MiB)
+Partition size: 64 sectors (256.0 KiB)
+Attribute flags: 1000000000000008
+Partition name: 'apdp'
+===================================================================
+Partition GUID code: E42E2B4C-33B0-429B-B1EF-D341C547022C (Unknown)
+Partition unique GUID: C3DAA6DF-3744-FAD7-0E2A-6400415A79AB
+First sector: 26816 (at 104.8 MiB)
+Last sector: 28863 (at 112.7 MiB)
+Partition size: 2048 sectors (8.0 MiB)
+Attribute flags: 0000000000000008
+Partition name: 'spunvm'
+===================================================================
+Partition GUID code: 10A0C19C-516A-5444-5CE3-664C3226A794 (Android limits)
+Partition unique GUID: 079F2CE1-0520-2F3B-F26C-2677E2595A93
+First sector: 28864 (at 112.8 MiB)
+Last sector: 28864 (at 112.8 MiB)
+Partition size: 1 sectors (4.0 KiB)
+Attribute flags: 1000000000000008
+Partition name: 'limits'
+===================================================================
+Partition GUID code: 165BD6BC-9250-4AC8-95A7-A93F4A440066 (Unknown)
+Partition unique GUID: D47E1BC0-7FC0-8002-3064-37F057E6DE03
+First sector: 28865 (at 112.8 MiB)
+Last sector: 28992 (at 113.3 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1000000000000008
+Partition name: 'uefivarstore'
+===================================================================
+Partition GUID code: FDE1604B-D68B-4BD4-973D-962AE7A1ED88 (Unknown)
+Partition unique GUID: AC7BE01C-4AE7-B690-1B60-3C5161FE8658
+First sector: 29024 (at 113.4 MiB)
+Last sector: 29055 (at 113.5 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 0000000000000000
+Partition name: 'pad3'
+===================================================================
+Partition GUID code: 89A12DE1-5E41-4CB3-8B4C-B1441EB5DA38 (Unknown)
+Partition unique GUID: 1E0D1A92-32E1-6036-1E92-FA45BC4AACE2
+First sector: 29056 (at 113.5 MiB)
+Last sector: 1880447 (at 7.2 GiB)
+Partition size: 1851392 sectors (7.1 GiB)
+Attribute flags: 0000000000000048
+Partition name: 'super'
+===================================================================
+Partition GUID code: FDE1604B-D68B-4BD4-973D-962AE7A1ED88 (Unknown)
+Partition unique GUID: F1DB06D8-C723-BC72-54DE-1A6DC7393C28
+First sector: 1880448 (at 7.2 GiB)
+Last sector: 1880575 (at 7.2 GiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 0000000000000000
+Partition name: 'pad4'
+===================================================================
+Partition GUID code: 1B81E7E6-F50D-419B-A739-2AEEF8DA3335 (Android user data)
+Partition unique GUID: 46B9EF8E-4AFA-97F2-5D6A-230DE3C9CD64
+First sector: 1880576 (at 7.2 GiB)
+Last sector: 30746618 (at 117.3 GiB)
+Partition size: 28866043 sectors (110.1 GiB)
+Attribute flags: 0000000000000018
+Partition name: 'userdata'
+===================================================================
+
+
+
+## Printing /dev/block/sdf info
+Disk /dev/block/sdf: 241664 sectors, 944.0 MiB
+Sector size (logical/physical): 4096/4096 bytes
+Disk identifier (GUID): C440EC50-E0CD-DA85-FFB5-BC7D26D3D860
+Partition table holds up to 23 entries
+Main partition table begins at sector 2 and ends at sector 2
+First usable sector is 6, last usable sector is 241658
+Partitions will be aligned on 4-sector boundaries
+Total free space is 100545 sectors (392.8 MiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              32            1055   4.0 MiB     FFFF  tz_b
+   2            1056            1183   512.0 KiB   FFFF  rpm_b
+   3            1184            1311   512.0 KiB   FFFF  hyp_b
+   4            1312            1439   512.0 KiB   FFFF  cmnlib_b
+   5            1440            1567   512.0 KiB   FFFF  cmnlib64_b
+   6            1568            1695   512.0 KiB   FFFF  keymaster_b
+   7            1696            1759   256.0 KiB   FFFF  prov_b
+   8            1760            2015   1024.0 KiB  FFFF  abl_b
+   9            2016            2527   2.0 MiB     FFFF  uefisecapp_b
+  10            2528            2559   128.0 KiB   FFFF  devcfg_b
+  11            2560            2579   80.0 KiB    FFFF  qupfw_b
+  12            2580            2611   128.0 KiB   FFFF  storsec_b
+  13            2612           48691   180.0 MiB   FFFF  modem_b
+  14           48692           48947   1024.0 KiB  FFFF  bluetooth_b
+  15           48948           65331   64.0 MiB    FFFF  dsp_b
+  16           65332           89907   96.0 MiB    FFFF  boot_b
+  17           89908           96051   24.0 MiB    FFFF  dtbo_b
+  18           96064          120639   96.0 MiB    FFFF  vendor_boot_b
+  19          120640          124735   16.0 MiB    FFFF  logo_b
+  20          124736          124751   64.0 KiB    FFFF  vbmeta_b
+  21          124752          124767   64.0 KiB    FFFF  vbmeta_system_b
+  22          124768          141151   64.0 MiB    FFFF  fsg_b
+  23          141152          241658   392.6 MiB   FFFF  last_parti5
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 621615CF-2752-D279-EA53-1E499846135E
+First sector: 32 (at 128.0 KiB)
+Last sector: 1055 (at 4.1 MiB)
+Partition size: 1024 sectors (4.0 MiB)
+Attribute flags: 1000000000000068
+Partition name: 'tz_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: EE8AFCF6-383E-514D-A57B-D7067DE96CBC
+First sector: 1056 (at 4.1 MiB)
+Last sector: 1183 (at 4.6 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 0000000000000068
+Partition name: 'rpm_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: F7012B62-2E49-F0EB-2C4F-C9099D021EC1
+First sector: 1184 (at 4.6 MiB)
+Last sector: 1311 (at 5.1 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'hyp_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 722194B7-EC3C-1B89-EF09-0D3206A54A8C
+First sector: 1312 (at 5.1 MiB)
+Last sector: 1439 (at 5.6 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'cmnlib_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: EA5DEC5F-7C1C-957B-D5DB-E0F0B362D8FE
+First sector: 1440 (at 5.6 MiB)
+Last sector: 1567 (at 6.1 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'cmnlib64_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 0AC75927-6FC5-28F3-5540-B1EFF890B165
+First sector: 1568 (at 6.1 MiB)
+Last sector: 1695 (at 6.6 MiB)
+Partition size: 128 sectors (512.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'keymaster_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 1A3DC23E-2BAC-24F1-F8C9-3236485C89BD
+First sector: 1696 (at 6.6 MiB)
+Last sector: 1759 (at 6.9 MiB)
+Partition size: 64 sectors (256.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'prov_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: E98FED35-BAE2-E8F1-AEFD-8C9AC3EE17E8
+First sector: 1760 (at 6.9 MiB)
+Last sector: 2015 (at 7.9 MiB)
+Partition size: 256 sectors (1024.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'abl_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: CFE966F8-A353-B007-D9F1-9411582E030C
+First sector: 2016 (at 7.9 MiB)
+Last sector: 2527 (at 9.9 MiB)
+Partition size: 512 sectors (2.0 MiB)
+Attribute flags: 1000000000000068
+Partition name: 'uefisecapp_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: B7C3B2A5-AD5E-3D4B-865C-74DC3FD7BD4D
+First sector: 2528 (at 9.9 MiB)
+Last sector: 2559 (at 10.0 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'devcfg_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 2DCBEF00-2986-8B71-9EA0-B2DE15D9C778
+First sector: 2560 (at 10.0 MiB)
+Last sector: 2579 (at 10.1 MiB)
+Partition size: 20 sectors (80.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'qupfw_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 8C5A2BA6-B05E-FD3B-5CEA-04BA5A4CD5B2
+First sector: 2580 (at 10.1 MiB)
+Last sector: 2611 (at 10.2 MiB)
+Partition size: 32 sectors (128.0 KiB)
+Attribute flags: 1000000000000068
+Partition name: 'storsec_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 787DFB34-EBA1-135E-523D-993A78B58069
+First sector: 2612 (at 10.2 MiB)
+Last sector: 48691 (at 190.2 MiB)
+Partition size: 46080 sectors (180.0 MiB)
+Attribute flags: 1000000000000048
+Partition name: 'modem_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 237FAE43-A74E-05B0-4598-96945A98BD72
+First sector: 48692 (at 190.2 MiB)
+Last sector: 48947 (at 191.2 MiB)
+Partition size: 256 sectors (1024.0 KiB)
+Attribute flags: 1000000000000048
+Partition name: 'bluetooth_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: FA22FDFD-999E-8EF7-3F5A-E70453CD9036
+First sector: 48948 (at 191.2 MiB)
+Last sector: 65331 (at 255.2 MiB)
+Partition size: 16384 sectors (64.0 MiB)
+Attribute flags: 1000000000000048
+Partition name: 'dsp_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: DC1FAD4E-F0CE-AF43-2B6B-2A1DACEFBC7C
+First sector: 65332 (at 255.2 MiB)
+Last sector: 89907 (at 351.2 MiB)
+Partition size: 24576 sectors (96.0 MiB)
+Attribute flags: 1000000000000048
+Partition name: 'boot_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 6B512FDF-C0B2-0C39-B72B-BD4A9162FC79
+First sector: 89908 (at 351.2 MiB)
+Last sector: 96051 (at 375.2 MiB)
+Partition size: 6144 sectors (24.0 MiB)
+Attribute flags: 1000000000000048
+Partition name: 'dtbo_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: D8E14F1D-0C7C-D2C6-DD3C-2EC118594E02
+First sector: 96064 (at 375.3 MiB)
+Last sector: 120639 (at 471.2 MiB)
+Partition size: 24576 sectors (96.0 MiB)
+Attribute flags: 0000000000000048
+Partition name: 'vendor_boot_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: DAE657C7-7127-CF76-0D51-BCC64854DF40
+First sector: 120640 (at 471.3 MiB)
+Last sector: 124735 (at 487.2 MiB)
+Partition size: 4096 sectors (16.0 MiB)
+Attribute flags: 1000000000000048
+Partition name: 'logo_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: AF17E390-46AE-A89A-5599-434813C1B53E
+First sector: 124736 (at 487.3 MiB)
+Last sector: 124751 (at 487.3 MiB)
+Partition size: 16 sectors (64.0 KiB)
+Attribute flags: 1000000000000048
+Partition name: 'vbmeta_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 47714F62-BE76-371A-01F6-F0449D04E20A
+First sector: 124752 (at 487.3 MiB)
+Last sector: 124767 (at 487.4 MiB)
+Partition size: 16 sectors (64.0 KiB)
+Attribute flags: 1000000000000048
+Partition name: 'vbmeta_system_b'
+===================================================================
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: D2CA0DFA-3972-1487-DCB3-BF8E3A3205B9
+First sector: 124768 (at 487.4 MiB)
+Last sector: 141151 (at 551.4 MiB)
+Partition size: 16384 sectors (64.0 MiB)
+Attribute flags: 0000000000000048
+Partition name: 'fsg_b'
+===================================================================
+Partition #23 does not exist.
+===================================================================

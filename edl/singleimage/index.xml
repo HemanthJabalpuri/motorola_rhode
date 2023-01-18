@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<index>
+	<board id="440"   name="SM_DIVAR"   storage.type="UFS" />
+	<package compatible="protocol:qboot cpu.name:SM_DIVAR" filename="pkg.xml"/>
+</index>

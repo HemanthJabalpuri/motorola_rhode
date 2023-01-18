@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<recipe>
+	<!-- Backup partitions that contain per-device configuration -->
+	<backup name="cid"/>
+	<backup name="frp"/>
+	<backup name="hw"/>
+	<backup name="misc"/>
+	<backup name="persist"/>
+	<backup name="prodpersist"/>
+	<backup name="utags"/>
+	<backup name="devinfo"/>
+	<backup name="sp"/>
+
+	<!-- Skip BL components should they be marked for backup in GPT -->
+	<backup name="abl_a"        skip="true"/>
+	<backup name="qupfw_a"      skip="true"/>
+	<backup name="devcfg_a"     skip="true"/>
+	<backup name="hyp_a"        skip="true"/>
+	<backup name="keymaster_a"  skip="true"/>
+	<backup name="tz_a"         skip="true"/>
+	<backup name="storsec_a"    skip="true"/>
+	<backup name="prov_a"       skip="true"/>
+	<backup name="aop_a"        skip="true"/>
+	<backup name="xbl_config_a" skip="true"/>
+	<backup name="xbl_a"        skip="true"/>
+
+	<backup name="abl_b"        skip="true"/>
+	<backup name="qupfw_b"      skip="true"/>
+	<backup name="devcfg_b"     skip="true"/>
+	<backup name="hyp_b"        skip="true"/>
+	<backup name="keymaster_b"  skip="true"/>
+	<backup name="tz_b"         skip="true"/>
+	<backup name="storsec_b"    skip="true"/>
+	<backup name="prov_b"       skip="true"/>
+	<backup name="aop_b"        skip="true"/>
+	<backup name="xbl_config_b" skip="true"/>
+	<backup name="xbl_b"        skip="true"/>
+
+	<!-- Commit all listed above plus those specified in device GPT -->
+	<!-- Backup is skipped under NexTest by default -->
+	<backup commit="1"/>
+
+	<!-- Toshiba UFS provisioning settings as default -->
+    <!-- Set bSecureRemovalType to 0 for Samsung and Hynix -->
+    <configure MemoryName="UFS" SkipStorageInit="1"/>
+
+	<ufs bNumberLU="6" bBootEnable="1" bDescrAccessEn="0" bInitPowerMode="1" bHighPriorityLUN="0x5" bSecureRemovalType="3" bInitActiveICCLevel="0" wPeriodicRTCUpdate="0" bConfigDescrLock="0" bWriteBoosterBufferPreserveUserSpaceEn="1" bWriteBoosterBufferType="1" shared_wb_buffer_size_in_kb="8388608" />
+
+	<ufs LUNum="0" bLUEnable="1" bBootLunID="0" size_in_kb="16384"    bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="3" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="Factory Provisioned RW" />
+	<ufs LUNum="1" bLUEnable="1" bBootLunID="1" size_in_kb="8192"     bDataReliability="0" bLUWriteProtect="0" bMemoryType="3" bLogicalBlockSize="0x0c" bProvisioningType="3" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="Boot A" />
+	<ufs LUNum="2" bLUEnable="1" bBootLunID="2" size_in_kb="8192"     bDataReliability="0" bLUWriteProtect="0" bMemoryType="3" bLogicalBlockSize="0x0c" bProvisioningType="3" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="Boot B" />
+	<ufs LUNum="3" bLUEnable="1" bBootLunID="0" size_in_kb="966656"   bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="3" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="System A" />
+	<ufs LUNum="4" bLUEnable="1" bBootLunID="0" size_in_kb="0"        bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="3" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="Data RW" />
+	<ufs LUNum="5" bLUEnable="1" bBootLunID="0" size_in_kb="966656"   bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="3" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="System B" />
+	<ufs LUNum="6" bLUEnable="0" bBootLunID="0" size_in_kb="0"        bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="0" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="" />
+	<ufs LUNum="7" bLUEnable="0" bBootLunID="0" size_in_kb="0"        bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="0" wContextCapabilities="0" wb_buffer_size_in_kb="0" desc="" />
+
+    <ufs LUNtoGrow="4" commit="1"/>
+
+    <configure MemoryName="UFS" SkipStorageInit="0"/>
+    <setbootablestoragedrive value="1"/>
+
+    <!-- Flash GPT -->
+    <print what="Flashing GPT..."/>
+    <flash partition="partition" filename="gpt.bin" verbose="true"/>
+
+    <print what="Re-initializing storage..."/>
+    <storage operation="reinit"/>
+
+
+	<!-- Flash bootloader -->
+	<print what="Flashing bootloader..."/>
+	<flash partition="abl_a"	filename="abl.elf"		verbose="true" />
+	<flash partition="devcfg_a"	filename="devcfg.mbn"		verbose="true" />
+	<flash partition="hyp_a"	filename="hyp.mbn"		verbose="true" />
+	<flash partition="keymaster_a"	filename="keymaster.mbn"	verbose="true" />
+	<flash partition="tz_a"		filename="tz.mbn"		verbose="true" />
+	<flash partition="storsec_a"	filename="storsec.mbn"		verbose="true" />
+	<flash partition="prov_a"	filename="prov64.mbn"		verbose="true" />
+	<flash partition="rpm_a"	filename="rpm.mbn"		verbose="true" />
+	<flash partition="qupfw_a"	filename="qupfw.elf"		verbose="true" />
+	<flash partition="uefisecapp_a"	filename="uefi_sec.mbn"		verbose="true" />
+	<flash partition="xbl_config_a"	filename="xbl_config.elf"	verbose="true" />
+	<flash partition="xbl_a"	filename="xbl.elf"		verbose="true" />
+	<!-- Restore backups -->
+	<restore dummy="foo"/>
+</recipe>
