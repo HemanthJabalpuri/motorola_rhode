@@ -19,7 +19,6 @@ abort() { ui_print "$1"; exit 1; }
 
 if [ -z "$BOOTMODE" ]; then
   ui_print " script executed manually/flashed in recovery instead from Magisk"
-  abort() { echo "$1"; exit 1; }
 fi
 
 if ! getprop ro.product.device | grep -q rhode; then
